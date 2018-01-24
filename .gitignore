@@ -1,0 +1,9 @@
+*.swp
+.DS_Store
+../../.idea
+test_out/*
+!test_out/folderholder
+rerun.txt
+REEDME.txt
+config/configuration.yml
+
