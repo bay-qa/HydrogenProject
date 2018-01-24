@@ -39,13 +39,13 @@ RERUN failures:
      it's also good to have such option in API testing as well.
 
 PARALYZATION:
-    - all test can be run in parallel, it will speed up test execution. Depend on hardware, number of threads can vary.
+   - all test can be run in parallel, it will speed up test execution. Depend on hardware, number of threads can vary.
        Minimun recommend number of threads can equal number of cores of your machine.
        For example, running tests in parallel (30 threads) on 2.5 GHz Intel Core i7 machine doesn't give me any problem:)
        but decreasing time of suit run:)
        Test run results:
-       Test run 1 thread(without paralization) - 26 scenarios (26 passed), 0m21.643s
-       Test run 20 threads(with paralization)  - 26 scenarios (26 passed), 0m4.381s
+       - Test run 1 thread(without paralization) - 26 scenarios (26 passed), 0m21.643s
+       - Test run 20 threads(with paralization)  - 26 scenarios (26 passed), 0m4.381s
 
     - when test suit runs in parallel reports will be generated for each thread(can be combined with custom HTML/XML parser).
 
